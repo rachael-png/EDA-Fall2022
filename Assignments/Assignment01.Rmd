@@ -9,22 +9,24 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+### My Git settings:
+user.name=‘rachael-png’
+user.email=‘rachael.grainger@duke.edu’
+guest@ba64769244e7:~/Environmental_Data_Analysis/EDA-Fall2022$ 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### My Git remote settings:
+origin  https://github.com/rachael-png/EDA-Fall2022.git (fetch)
+origin  https://github.com/rachael-png/EDA-Fall2022.git (push)
+upstream        https://github.com/ENV872/EDA-Fall2022 (fetch)
+upstream        DISABLE (push)
+guest@ba64769244e7:~/Environmental_Data_Analysis/EDA-Fall2022$ 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+### My Git changes:
+7d07417 (HEAD -> main, origin/main, origin/HEAD) Adding assignment 1 to github
+20a7b70 Add data files
+f992081 Create Assignments folder
+972c063 Create Lessons folder
+34b6cc8 Create .gitignore
+a07d95c Initial commit
+guest@ba64769244e7:~/Environmental_Data_Analysis/EDA-Fall2022$ 
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
